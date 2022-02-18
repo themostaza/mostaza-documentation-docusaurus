@@ -48,12 +48,14 @@ const config = {
           src: "img/logo-mostaza.svg",
         },
         items: [
+          { to: "/docs/intro", label: "Documentation", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
             position: "right",
           },
+          /* { type: "localeDropdown", position: "right" }, */
         ],
       },
       footer: {
@@ -99,13 +101,17 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mostaza, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+  i18n: {
+    defaultLocale: "it",
+    locales: ["it"],
+  },
 };
 
 module.exports = config;
