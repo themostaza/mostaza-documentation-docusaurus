@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Introduzione e installazione
 
 ## Cos'è Strapi?
