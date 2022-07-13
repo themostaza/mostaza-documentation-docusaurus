@@ -10,7 +10,7 @@ Se gli endpoint generati automaticamente da Strapi non bastano o si hanno bisogn
 Questa miniguida deriva da [questa pagina](https://docs.strapi.io/developer-docs/latest/development/backend-customization/controllers.html#adding-a-new-controller) della documentazione ufficiale.
 
 1. Andare nella cartella `api/{entità_alla_quale_aggiungere_endpoint}/routes`
-2. Creare un file con nome ed estensione`custom-{entità_alla_quale_aggiungere_endpoint}.js` (questo sarà il file che elencherà le rotte che si stanno aggiungendo).
+2. Creare un file con nome ed estensione `custom-{entità_alla_quale_aggiungere_endpoint}.js` (questo sarà il file che elencherà le rotte che si stanno aggiungendo).
 3. Aggiungere le rotte necessarie seguendo la seguente struttura:
 
    ```javascript
