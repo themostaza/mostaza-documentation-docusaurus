@@ -7,8 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Mostaza Documentation",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://themostaza.github.io",
+  baseUrl: "/mostaza-documentation-docusaurus/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
