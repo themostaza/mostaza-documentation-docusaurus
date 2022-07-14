@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmostaza_documentation=self.webpackChunkmostaza_documentation||[]).push([[1633],{2511:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"facebook","count":1,"permalink":"/blog/tags/facebook"}')}}]);
