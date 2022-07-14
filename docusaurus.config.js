@@ -12,8 +12,10 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "Mostaza", // Usually your GitHub org/user name.
-  projectName: "mostaza-documentation", // Usually your repo name.
+  organizationName: "themostaza", // Usually your GitHub org/user name.
+  projectName: "mostaza-documentation-docusaurus", // Usually your repo name.
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   presets: [
     [
