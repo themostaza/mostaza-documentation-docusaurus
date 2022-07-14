@@ -1,0 +1,92 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "docusaurus-tutorial/intro",
+              "path": "/docs/docusaurus-tutorial/intro",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "docusaurus-tutorial/tutorial-basics/congratulations",
+              "path": "/docs/docusaurus-tutorial/tutorial-basics/congratulations",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "docusaurus-tutorial/tutorial-basics/create-a-blog-post",
+              "path": "/docs/docusaurus-tutorial/tutorial-basics/create-a-blog-post",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "docusaurus-tutorial/tutorial-basics/create-a-document",
+              "path": "/docs/docusaurus-tutorial/tutorial-basics/create-a-document",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "docusaurus-tutorial/tutorial-basics/create-a-page",
+              "path": "/docs/docusaurus-tutorial/tutorial-basics/create-a-page",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "docusaurus-tutorial/tutorial-basics/deploy-your-site",
+              "path": "/docs/docusaurus-tutorial/tutorial-basics/deploy-your-site",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "docusaurus-tutorial/tutorial-basics/markdown-features",
+              "path": "/docs/docusaurus-tutorial/tutorial-basics/markdown-features",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "docusaurus-tutorial/tutorial-extras/manage-docs-versions",
+              "path": "/docs/docusaurus-tutorial/tutorial-extras/manage-docs-versions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "docusaurus-tutorial/tutorial-extras/translate-your-site",
+              "path": "/docs/docusaurus-tutorial/tutorial-extras/translate-your-site",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "strapi/custom-endpoint",
+              "path": "/docs/strapi/custom-endpoint",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "strapi/intro",
+              "path": "/docs/strapi/intro",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "strapi/mostaza-email-service",
+              "path": "/docs/strapi/mostaza-email-service",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

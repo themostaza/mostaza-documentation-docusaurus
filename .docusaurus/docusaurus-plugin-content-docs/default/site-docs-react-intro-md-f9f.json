@@ -1,0 +1,23 @@
+{
+  "unversionedId": "react/intro",
+  "id": "react/intro",
+  "title": "Introduzione",
+  "description": "",
+  "source": "@site/docs/react/intro.md",
+  "sourceDirName": "react",
+  "slug": "/react/intro",
+  "permalink": "/docs/react/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Creazione di endpoint custom",
+    "permalink": "/docs/strapi/custom-endpoint"
+  },
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/docusaurus-tutorial/intro"
+  }
+}

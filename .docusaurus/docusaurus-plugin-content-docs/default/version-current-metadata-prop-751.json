@@ -1,0 +1,203 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "defaultSidebar": [
+      {
+        "type": "link",
+        "label": "Home",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Documentazione Strapi",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduzione e installazione",
+            "href": "/docs/strapi/intro",
+            "docId": "strapi/intro"
+          },
+          {
+            "type": "link",
+            "label": "Creazione di endpoint custom",
+            "href": "/docs/strapi/custom-endpoint",
+            "docId": "strapi/custom-endpoint"
+          },
+          {
+            "type": "link",
+            "label": "Integrazione con il Mostaza Mail Sender Client",
+            "href": "/docs/strapi/mostaza-email-service",
+            "docId": "strapi/mostaza-email-service"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Docusaurus - Tutorial",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Tutorial Intro",
+            "href": "/docs/docusaurus-tutorial/intro",
+            "docId": "docusaurus-tutorial/intro"
+          },
+          {
+            "type": "category",
+            "label": "Tutorial - Basics",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Create a Page",
+                "href": "/docs/docusaurus-tutorial/tutorial-basics/create-a-page",
+                "docId": "docusaurus-tutorial/tutorial-basics/create-a-page"
+              },
+              {
+                "type": "link",
+                "label": "Create a Document",
+                "href": "/docs/docusaurus-tutorial/tutorial-basics/create-a-document",
+                "docId": "docusaurus-tutorial/tutorial-basics/create-a-document"
+              },
+              {
+                "type": "link",
+                "label": "Create a Blog Post",
+                "href": "/docs/docusaurus-tutorial/tutorial-basics/create-a-blog-post",
+                "docId": "docusaurus-tutorial/tutorial-basics/create-a-blog-post"
+              },
+              {
+                "type": "link",
+                "label": "Markdown Features",
+                "href": "/docs/docusaurus-tutorial/tutorial-basics/markdown-features",
+                "docId": "docusaurus-tutorial/tutorial-basics/markdown-features"
+              },
+              {
+                "type": "link",
+                "label": "Deploy your site",
+                "href": "/docs/docusaurus-tutorial/tutorial-basics/deploy-your-site",
+                "docId": "docusaurus-tutorial/tutorial-basics/deploy-your-site"
+              },
+              {
+                "type": "link",
+                "label": "Congratulations!",
+                "href": "/docs/docusaurus-tutorial/tutorial-basics/congratulations",
+                "docId": "docusaurus-tutorial/tutorial-basics/congratulations"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Tutorial - Extras",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Manage Docs Versions",
+                "href": "/docs/docusaurus-tutorial/tutorial-extras/manage-docs-versions",
+                "docId": "docusaurus-tutorial/tutorial-extras/manage-docs-versions"
+              },
+              {
+                "type": "link",
+                "label": "Translate your site",
+                "href": "/docs/docusaurus-tutorial/tutorial-extras/translate-your-site",
+                "docId": "docusaurus-tutorial/tutorial-extras/translate-your-site"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "docusaurus-tutorial/intro": {
+      "id": "docusaurus-tutorial/intro",
+      "title": "Tutorial Intro",
+      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "defaultSidebar"
+    },
+    "docusaurus-tutorial/tutorial-basics/congratulations": {
+      "id": "docusaurus-tutorial/tutorial-basics/congratulations",
+      "title": "Congratulations!",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "defaultSidebar"
+    },
+    "docusaurus-tutorial/tutorial-basics/create-a-blog-post": {
+      "id": "docusaurus-tutorial/tutorial-basics/create-a-blog-post",
+      "title": "Create a Blog Post",
+      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+      "sidebar": "defaultSidebar"
+    },
+    "docusaurus-tutorial/tutorial-basics/create-a-document": {
+      "id": "docusaurus-tutorial/tutorial-basics/create-a-document",
+      "title": "Create a Document",
+      "description": "Documents are groups of pages connected through:",
+      "sidebar": "defaultSidebar"
+    },
+    "docusaurus-tutorial/tutorial-basics/create-a-page": {
+      "id": "docusaurus-tutorial/tutorial-basics/create-a-page",
+      "title": "Create a Page",
+      "description": "Add Markdown or React files to src/pages to create a standalone page:",
+      "sidebar": "defaultSidebar"
+    },
+    "docusaurus-tutorial/tutorial-basics/deploy-your-site": {
+      "id": "docusaurus-tutorial/tutorial-basics/deploy-your-site",
+      "title": "Deploy your site",
+      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+      "sidebar": "defaultSidebar"
+    },
+    "docusaurus-tutorial/tutorial-basics/markdown-features": {
+      "id": "docusaurus-tutorial/tutorial-basics/markdown-features",
+      "title": "Markdown Features",
+      "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "defaultSidebar"
+    },
+    "docusaurus-tutorial/tutorial-extras/manage-docs-versions": {
+      "id": "docusaurus-tutorial/tutorial-extras/manage-docs-versions",
+      "title": "Manage Docs Versions",
+      "description": "Docusaurus can manage multiple versions of your docs.",
+      "sidebar": "defaultSidebar"
+    },
+    "docusaurus-tutorial/tutorial-extras/translate-your-site": {
+      "id": "docusaurus-tutorial/tutorial-extras/translate-your-site",
+      "title": "Translate your site",
+      "description": "Let's translate docs/intro.md to French.",
+      "sidebar": "defaultSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Home",
+      "description": "",
+      "sidebar": "defaultSidebar"
+    },
+    "strapi/custom-endpoint": {
+      "id": "strapi/custom-endpoint",
+      "title": "Creazione di endpoint custom",
+      "description": "Se gli endpoint generati automaticamente da Strapi non bastano o si hanno bisogno di funzionalità particolari,",
+      "sidebar": "defaultSidebar"
+    },
+    "strapi/intro": {
+      "id": "strapi/intro",
+      "title": "Introduzione e installazione",
+      "description": "Cos'è Strapi?",
+      "sidebar": "defaultSidebar"
+    },
+    "strapi/mostaza-email-service": {
+      "id": "strapi/mostaza-email-service",
+      "title": "Integrazione con il Mostaza Mail Sender Client",
+      "description": "Per utilizzare il client per inviare email per il recupero della password, è necessario installare il package ms-mail-sender-client e creare il file strapi-server.js nella cartella src/extensions/users-permissions/ con il seguente codice:",
+      "sidebar": "defaultSidebar"
+    }
+  }
+}

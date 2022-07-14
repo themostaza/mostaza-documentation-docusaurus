@@ -1,0 +1,26 @@
+{
+  "unversionedId": "strapi/mostaza-email-service",
+  "id": "strapi/mostaza-email-service",
+  "title": "Integrazione con il Mostaza Mail Sender Client",
+  "description": "Per utilizzare il client per inviare email per il recupero della password, è necessario installare il package ms-mail-sender-client e creare il file strapi-server.js nella cartella src/extensions/users-permissions/ con il seguente codice:",
+  "source": "@site/docs/strapi/mostaza-email-service.md",
+  "sourceDirName": "strapi",
+  "slug": "/strapi/mostaza-email-service",
+  "permalink": "/docs/strapi/mostaza-email-service",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/strapi/mostaza-email-service.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Creazione di endpoint custom",
+    "permalink": "/docs/strapi/custom-endpoint"
+  },
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/docusaurus-tutorial/intro"
+  }
+}

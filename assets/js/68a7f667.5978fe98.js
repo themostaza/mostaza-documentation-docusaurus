@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmostaza_documentation=self.webpackChunkmostaza_documentation||[]).push([[8387],{3769:function(n){n.exports=JSON.parse('{"plugin":{"name":"docusaurus-plugin-content-docs","id":"default"}}')}}]);
