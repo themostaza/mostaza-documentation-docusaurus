@@ -16,7 +16,6 @@ const config = {
   projectName: "mostaza-documentation-docusaurus", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
-
   presets: [
     [
       "classic",
