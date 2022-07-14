@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmostaza_documentation=self.webpackChunkmostaza_documentation||[]).push([[3189],{9733:function(a){a.exports=JSON.parse('{"allTagsPath":"/mostaza-documentation-docusaurus/blog/tags","name":"hola","count":1,"permalink":"/mostaza-documentation-docusaurus/blog/tags/hola"}')}}]);
